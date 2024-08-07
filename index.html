@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obchodní Pilot & Pilot Dronu | [Tvé Jméno]</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Domů</a></li>
+                    <li><a href="#about">O mně</a></li>
+                    <li><a href="#services">Služby</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Banner -->
+    <section id="home" class="banner">
+        <div class="banner-text">
+            <h1>Vítejte na mých stránkách!</h1>
+            <p>Obchodní pilot a pilot dronu - vaši osobní letečtí specialisté</p>
+            <a href="#contact" class="btn-primary">Kontaktujte mě</a>
+        </div>
+        <img src="images/banner.jpg" alt="Dron v letu" class="banner-image">
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>O mně</h2>
+            <p>Jsem obchodní pilot a pilot dronu s více než 10 lety zkušeností v letectví a letecké fotografii. Mám licenci pro provoz letadel a dronů a specializuji se na tvorbu profesionálních videí a fotografií z ptačí perspektivy.</p>
+            <ul class="certifikaty">
+                <li><strong>Licence PPL (Private Pilot License)</strong></li>
+                <li><strong>Certifikace pro komerční provoz dronů</strong></li>
+                <li><strong>Školení v letecké fotografii a videu</strong></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Služby</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Aerotaxi</h3>
+                    <p>Nabízím služby leteckého taxi pro soukromé a obchodní cesty. Rychlé a pohodlné cestování s individuálním přístupem.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Natáčení dronem</h3>
+                    <p>Profesionální natáčení a fotografování dronem pro svatby, stavby, hotely a další akce. Kvalitní záběry z unikátní perspektivy.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Konzultace a školení</h3>
+                    <p>Poskytuji konzultace a školení v oblasti letectví a dronů. Naučím vás, jak bezpečně a efektivně využívat drony.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/projekty/svatba1.jpg" alt="Svatba">
+                    <h3>Svatba v horách</h3>
+                    <p>Unikátní záběry z nezapomenutelné svatby v horách.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/projekty/stavba1.jpg" alt="Stavba">
+                    <h3>Průběh stavby</h3>
+                    <p>Sledování průběhu stavby pomocí dronu s pravidelnými aktualizacemi.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/projekty/hotel1.jpg" alt="Hotel">
+                    <h3>Prezentace hotelu</h3>
+                    <p>Prezentace hotelu z výšky pro účely marketingu a reklamy.</p>
+                </div>
+                <!-- Další položky portfolia -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <form id="contact-form">
+                <label for="name">Jméno:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Zpráva:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Odeslat</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>Telefon:</strong> +420 123 456 789</p>
+                <p><strong>Email:</strong> <a href="mailto:info@tvujweb.cz">info@tvujweb.cz</a></p>
+                <p><strong>Sociální média:</strong></p>
+                <ul>
+                    <li><a href="https://www.facebook.com/tvujprofil" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/tvujprofil" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/tvujprofil" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ing. Daniel Sahrai. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
